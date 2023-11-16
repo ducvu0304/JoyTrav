@@ -29,7 +29,7 @@ public class AppContext {
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
         sessionFactory.setPackagesToScan(new String[] {
-                "net.javaguides.springmvc.entity"
+                "com.vn.joytrav.model"
         });
         sessionFactory.setHibernateProperties(hibernateProperties());
         return sessionFactory;

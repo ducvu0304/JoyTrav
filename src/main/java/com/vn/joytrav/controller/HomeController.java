@@ -10,6 +10,6 @@ public class HomeController {
 
     @RequestMapping(value =  "/booking")
     public String bookingT() {
-        return "joyTrav/Booking";
+        return "joyTrav/fragments/header/Booking";
     }
 }
